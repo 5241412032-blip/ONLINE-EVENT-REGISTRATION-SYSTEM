@@ -1,0 +1,6 @@
+.vercel/
+vendor/
+.agents/
+.env
+.env.*
+*.log

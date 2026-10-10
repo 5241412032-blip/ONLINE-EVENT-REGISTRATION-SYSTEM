@@ -1,0 +1,6 @@
+.git
+.github
+.agents
+node_modules
+/vendor
+*.log

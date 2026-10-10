@@ -1,0 +1,17 @@
+{
+    "name": "eventms/online-event-management-system",
+    "description": "Online Event Management System with PHP and MySQL",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
