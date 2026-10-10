@@ -96,17 +96,17 @@ INSERT IGNORE INTO users (name, email, password, role, department) VALUES
 (
   'System Administrator',
   'admin@eventms.com',
-  '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',  -- password: Admin@123
+  '$2y$10$XRtewDGiU8jOB.lOO.ZyweSk7QbhYdQJnbmBUue7i2XgtGsxu51V6',  -- password: Admin@123
   'admin',
   'IT Department'
 );
 
 -- Sample Student accounts
--- Password for all: Student@123
+-- Password for all: Admin@123
 INSERT IGNORE INTO users (name, email, password, role, department, year, phone) VALUES
-('Aarav Sharma',   'aarav@student.com',   '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student', 'Computer Science', 2, '9876543210'),
-('Priya Mehta',    'priya@student.com',   '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student', 'Electronics',      3, '9876543211'),
-('Rohit Verma',    'rohit@student.com',   '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student', 'Mechanical',       1, '9876543212');
+('Aarav Sharma',   'aarav@student.com',   '$2y$10$XRtewDGiU8jOB.lOO.ZyweSk7QbhYdQJnbmBUue7i2XgtGsxu51V6', 'student', 'Computer Science', 2, '9876543210'),
+('Priya Mehta',    'priya@student.com',   '$2y$10$XRtewDGiU8jOB.lOO.ZyweSk7QbhYdQJnbmBUue7i2XgtGsxu51V6', 'student', 'Electronics',      3, '9876543211'),
+('Rohit Verma',    'rohit@student.com',   '$2y$10$XRtewDGiU8jOB.lOO.ZyweSk7QbhYdQJnbmBUue7i2XgtGsxu51V6', 'student', 'Mechanical',       1, '9876543212');
 
 -- Sample Events (created_by = admin id = 1)
 INSERT IGNORE INTO events (title, description, event_date, event_time, venue, capacity, category, status, banner_color, created_by) VALUES
